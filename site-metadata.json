@@ -1,0 +1,88 @@
+{
+    "layout_style": "grid",
+    "palette": "red",
+    "siteUrl":"https://blog.fennex.agency/",
+    "header": {
+        "type": "header",
+        "title": "Fennex Agnecy Blog",
+        "logo_img": "/images/fennex-agency-blog-logo.webp",
+        "logo_img_alt": "Fennex Agnecy Blog Logo",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "type": "action",
+                "label": "Home",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "type": "action",
+                "label": "Contact",
+                "url": "/contact",
+                "style": "primary"
+            },
+            {
+                "label": "Fennex Agency",
+                "url": "https://www.fennex.agency",
+                "style": "secondary",
+                "icon_class": "dev",
+                "new_window": true,
+                "no_follow": false,
+                "type": "action"
+            }
+        ]
+    },
+    "footer": {
+        "type": "footer",
+        "content": "&copy;<a href=\"https://fennex.agency\" target=\"_blank\" rel=\"noopener\">Fennex Agency</a>. All rights reserved. This Jamstack site was created with Stackbit.",
+        "has_social": false,
+        "social_links": [
+            {
+                "type": "action",
+                "label": "Twitter",
+                "url": "https://twitter.com/",
+                "style": "icon",
+                "icon_class": "twitter",
+                "new_window": true
+            },
+            {
+                "type": "action",
+                "label": "Instagram",
+                "url": "https://www.instagram.com/",
+                "style": "icon",
+                "icon_class": "instagram",
+                "new_window": true
+            },
+            {
+                "type": "action",
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/",
+                "style": "icon",
+                "icon_class": "linkedin",
+                "new_window": true
+            }
+        ],
+        "links": [
+            {
+                "type": "action",
+                "label": "Privacy Policy",
+                "url": "/policies/privacy-policy/",
+                "new_window": true
+            },
+            {
+                "type": "action",
+                "label": "Disclaimer",
+                "url": "/policies/disclaimer/",
+                "new_window": true
+            }
+        ],
+        "has_subscribe": true,
+        "subscribe_title": "",
+        "subscribe_content": "",
+        "subscribe_action": "",
+        "has_embedded_form": true,
+        "embedded_form":"<script async data-uid=\"b3d830d40c\" src=\"https://blog-fennex-agency.ck.page/b3d830d40c/index.js\"></script>"
+    },
+    "domain": "https://blog-fennex-agency.netlify.app",
+    "title": "Fennex Agency Blog"
+}
